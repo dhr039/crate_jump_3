@@ -1,0 +1,70 @@
+{
+
+com.badlogic.gdx.graphics.Color: {
+	green: { a: 1, b: 0, g: 1, r: 0 },
+	white: { a: 1, b: 1, g: 1, r: 1 },
+	red: { a: 1, b: 0, g: 0, r: 1 },
+	black: { a: 1, b: 0, g: 0, r: 0 }
+},
+
+com.badlogic.gdx.graphics.g2d.BitmapFont: { 
+	default-font: { file: font_handmade.fnt },
+	smaller_font: {file: plain_old_smaller.fnt}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: { font: default-font, fontColor: white },
+	level_locked: { font: default-font, fontColor: red },
+	level_indicator: { font: default-font, fontColor: white },
+	smaller_label: {font: smaller_font, fontColor: white},
+	smaller_label_green: {font: smaller_font, fontColor: green}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: { font: default-font, fontColor: white }
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+
+	btn_level_passed: { font: default-font, fontColor: white },
+	btn_level_not_passed: { font: default-font, fontColor: green },
+	btn_level_not_passed_locked: { font: default-font, fontColor: red },
+    default: {font: default-font, fontColor: white }
+
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	btn_menu_play: { down: btn_play_down, up: btn_play_up },
+	btn_menu_exit: { down: btn_exit_down, up: btn_exit_up },
+	btn_settings: { down: btn_settings_down, up: btn_settings_up },
+
+    btn_share: {down: btn_share_down, up: btn_share_up},
+    btn_eye: {down:btn_eye_down, up: btn_eye_up},
+    bnt_ok: {down:bnt_ok_down, up: bnt_ok_up},
+    btn_cancel: {down: btn_cancel_down, up: btn_cancel_up},
+	btn_info: {down: btn_info_down, up: btn_info_up},
+	btn_music: { down: btn_music_on, up: btn_music_on , checked: btn_music_off},
+	btn_sound: { down: btn_sound_on, up: btn_sound_on , checked: btn_sound_off},
+	btn_back: { down: btn_back_down, up: btn_back_up , checked: btn_back_up},
+	btn_restart_level: { down: btn_restartlevel_down, up: btn_restartlevel_up , checked: btn_restartlevel_up},
+	btn_next_level: { down: btn_nextlevel_down, up: btn_nextlevel_up , checked: btn_nextlevel_up},
+	btn_reload_levels: { down: reload_levels_down, up: reload_levels_up , checked: reload_levels_up},
+	btn_leaderboard_24: { down: btn_leaderboard_24_down, up: btn_leaderboard_24_up , checked: btn_leaderboard_24_up},
+	btn_leaderboard_40: { down: btn_leaderboard_40_down, up: btn_leaderboard_40_up , checked: btn_leaderboard_40_up},
+	btn_more: {down: btn_more_down, up: btn_more_up},
+
+	default: {}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {font: default-font, fontColor: white}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Image: {
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+}
+
+
+}

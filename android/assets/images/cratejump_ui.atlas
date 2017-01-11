@@ -1,0 +1,290 @@
+
+cratejump_ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bnt_ok_down
+  rotate: false
+  xy: 401, 663
+  size: 181, 155
+  orig: 181, 155
+  offset: 0, 0
+  index: -1
+bnt_ok_up
+  rotate: false
+  xy: 838, 165
+  size: 181, 155
+  orig: 181, 155
+  offset: 0, 0
+  index: -1
+btn_back_down
+  rotate: false
+  xy: 838, 34
+  size: 151, 129
+  orig: 151, 129
+  offset: 0, 0
+  index: -1
+btn_exit_down
+  rotate: false
+  xy: 401, 903
+  size: 200, 81
+  orig: 200, 81
+  offset: 0, 0
+  index: -1
+btn_exit_up
+  rotate: false
+  xy: 401, 820
+  size: 200, 81
+  orig: 200, 81
+  offset: 0, 0
+  index: -1
+btn_info_down
+  rotate: false
+  xy: 1, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+btn_info_up
+  rotate: false
+  xy: 303, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+btn_more_down
+  rotate: false
+  xy: 401, 322
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+btn_more_up
+  rotate: false
+  xy: 703, 322
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+btn_music_off
+  rotate: false
+  xy: 605, 44
+  size: 231, 276
+  orig: 231, 276
+  offset: 0, 0
+  index: -1
+btn_music_on
+  rotate: false
+  xy: 605, 624
+  size: 300, 360
+  orig: 300, 360
+  offset: 0, 0
+  index: -1
+crown_for_level
+  rotate: false
+  xy: 907, 904
+  size: 91, 80
+  orig: 91, 80
+  offset: 0, 0
+  index: -1
+endlevel_dialog_background
+  rotate: false
+  xy: 1, 303
+  size: 398, 681
+  orig: 398, 681
+  offset: 0, 0
+  index: -1
+reload_levels_down
+  rotate: false
+  xy: 907, 839
+  size: 80, 63
+  orig: 80, 63
+  offset: 0, 0
+  index: -1
+reload_levels_up
+  rotate: false
+  xy: 907, 774
+  size: 80, 63
+  orig: 80, 63
+  offset: 0, 0
+  index: -1
+star_empty
+  rotate: false
+  xy: 907, 731
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+star_filled
+  rotate: false
+  xy: 952, 731
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+
+cratejump_ui2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btn_cancel_down
+  rotate: false
+  xy: 1, 503
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+btn_cancel_up
+  rotate: false
+  xy: 1, 1
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+btn_nextlevel_down
+  rotate: false
+  xy: 503, 503
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+btn_nextlevel_up
+  rotate: false
+  xy: 503, 1
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+
+cratejump_ui3.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btn_play_down
+  rotate: false
+  xy: 1, 503
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+btn_play_up
+  rotate: false
+  xy: 1, 1
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+btn_restartlevel_down
+  rotate: false
+  xy: 503, 503
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+btn_restartlevel_up
+  rotate: false
+  xy: 503, 1
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+
+cratejump_ui4.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btn_back_up
+  rotate: false
+  xy: 607, 64
+  size: 151, 129
+  orig: 151, 129
+  offset: 0, 0
+  index: -1
+btn_eye_down
+  rotate: false
+  xy: 303, 342
+  size: 237, 155
+  orig: 237, 155
+  offset: 0, 0
+  index: -1
+btn_eye_up
+  rotate: false
+  xy: 303, 185
+  size: 237, 155
+  orig: 237, 155
+  offset: 0, 0
+  index: -1
+btn_leaderboard_24_down
+  rotate: false
+  xy: 542, 347
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_leaderboard_24_up
+  rotate: false
+  xy: 303, 33
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_leaderboard_40_down
+  rotate: false
+  xy: 542, 195
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_leaderboard_40_up
+  rotate: false
+  xy: 694, 347
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_settings_down
+  rotate: false
+  xy: 694, 195
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_settings_up
+  rotate: false
+  xy: 846, 347
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_share_down
+  rotate: false
+  xy: 846, 195
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_share_up
+  rotate: false
+  xy: 455, 33
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+btn_sound_off
+  rotate: false
+  xy: 1, 250
+  size: 300, 247
+  orig: 300, 247
+  offset: 0, 0
+  index: -1
+btn_sound_on
+  rotate: false
+  xy: 1, 1
+  size: 300, 247
+  orig: 300, 247
+  offset: 0, 0
+  index: -1

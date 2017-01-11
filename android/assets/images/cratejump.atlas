@@ -1,0 +1,452 @@
+
+cratejump.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+asone
+  rotate: false
+  xy: 803, 892
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 1
+asone
+  rotate: false
+  xy: 803, 770
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 2
+asone
+  rotate: false
+  xy: 803, 648
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 3
+asone
+  rotate: false
+  xy: 803, 526
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 4
+asone
+  rotate: false
+  xy: 803, 404
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 5
+asone
+  rotate: false
+  xy: 803, 282
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 6
+asone
+  rotate: false
+  xy: 803, 160
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 7
+asone
+  rotate: false
+  xy: 803, 38
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 8
+cloud01
+  rotate: false
+  xy: 103, 4
+  size: 100, 44
+  orig: 100, 44
+  offset: 0, 0
+  index: -1
+cloud02
+  rotate: false
+  xy: 205, 4
+  size: 100, 44
+  orig: 100, 44
+  offset: 0, 0
+  index: -1
+cloud03
+  rotate: false
+  xy: 1, 1
+  size: 100, 47
+  orig: 100, 47
+  offset: 0, 0
+  index: -1
+goal
+  rotate: false
+  xy: 925, 852
+  size: 3, 160
+  orig: 3, 160
+  offset: 0, 0
+  index: -1
+metalbkgrnd
+  rotate: false
+  xy: 1, 532
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+rock_edge
+  rotate: false
+  xy: 930, 912
+  size: 25, 100
+  orig: 25, 100
+  offset: 0, 0
+  index: -1
+space_one
+  rotate: false
+  xy: 1, 50
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+
+cratejump2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+asone
+  rotate: false
+  xy: 703, 895
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 9
+asone
+  rotate: false
+  xy: 1, 367
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 10
+asone
+  rotate: false
+  xy: 703, 773
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 11
+asone
+  rotate: false
+  xy: 825, 895
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 12
+asone
+  rotate: false
+  xy: 1, 245
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 13
+asone
+  rotate: false
+  xy: 123, 367
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 14
+asone
+  rotate: false
+  xy: 703, 651
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 15
+asone
+  rotate: false
+  xy: 825, 773
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 16
+bfour
+  rotate: false
+  xy: 1, 123
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 1
+bfour
+  rotate: false
+  xy: 123, 245
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 2
+bfour
+  rotate: false
+  xy: 245, 367
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 3
+bfour
+  rotate: false
+  xy: 825, 651
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 4
+bfour
+  rotate: false
+  xy: 1, 1
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 5
+bfour
+  rotate: false
+  xy: 123, 123
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 6
+bfour
+  rotate: false
+  xy: 245, 245
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 7
+bfour
+  rotate: false
+  xy: 367, 367
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 8
+bfour
+  rotate: false
+  xy: 123, 1
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 9
+bfour
+  rotate: false
+  xy: 245, 123
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 10
+bfour
+  rotate: false
+  xy: 367, 245
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 11
+bfour
+  rotate: false
+  xy: 489, 367
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 12
+bfour
+  rotate: false
+  xy: 245, 1
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 13
+bfour
+  rotate: false
+  xy: 367, 123
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 14
+bfour
+  rotate: false
+  xy: 489, 245
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 15
+bfour
+  rotate: false
+  xy: 367, 1
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 16
+chunk
+  rotate: false
+  xy: 1, 885
+  size: 700, 130
+  orig: 700, 130
+  offset: 0, 0
+  index: -1
+chunk_b
+  rotate: false
+  xy: 1, 489
+  size: 699, 130
+  orig: 699, 130
+  offset: 0, 0
+  index: -1
+dthree
+  rotate: false
+  xy: 489, 123
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 1
+dthree
+  rotate: false
+  xy: 489, 1
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 2
+dthree
+  rotate: false
+  xy: 611, 367
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 3
+dthree
+  rotate: false
+  xy: 611, 245
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 4
+dthree
+  rotate: false
+  xy: 611, 123
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 5
+dthree
+  rotate: false
+  xy: 611, 1
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 6
+dthree
+  rotate: false
+  xy: 703, 529
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 7
+dthree
+  rotate: false
+  xy: 825, 529
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 8
+dthree
+  rotate: false
+  xy: 733, 407
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 9
+dthree
+  rotate: false
+  xy: 733, 285
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 10
+dthree
+  rotate: false
+  xy: 733, 163
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 11
+dthree
+  rotate: false
+  xy: 733, 41
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 12
+dthree
+  rotate: false
+  xy: 855, 407
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 13
+dthree
+  rotate: false
+  xy: 855, 285
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 14
+dthree
+  rotate: false
+  xy: 855, 163
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 15
+dthree
+  rotate: false
+  xy: 855, 41
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: 16
+scrolling_front
+  rotate: false
+  xy: 1, 753
+  size: 700, 130
+  orig: 700, 130
+  offset: 0, 0
+  index: -1
+scrolling_front_b
+  rotate: false
+  xy: 1, 621
+  size: 700, 130
+  orig: 700, 130
+  offset: 0, 0
+  index: -1
+
+cratejump3.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+alien_obstacle
+  rotate: false
+  xy: 1, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+crate
+  rotate: false
+  xy: 103, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+rock_middle
+  rotate: false
+  xy: 205, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
