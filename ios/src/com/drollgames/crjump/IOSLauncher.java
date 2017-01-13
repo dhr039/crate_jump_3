@@ -11,7 +11,11 @@ public class IOSLauncher extends IOSApplication.Delegate {
     @Override
     protected IOSApplication createApplication() {
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
-        return new IOSApplication(new CJMain(), config);
+        config.orientationLandscape = true;
+        config.orientationPortrait = false;
+        config.useAccelerometer = false;
+        config.useCompass = false;
+        return new IOSApplication(new CJMain(null, null), config);
     }
 
     public static void main(String[] argv) {
