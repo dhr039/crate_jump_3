@@ -167,8 +167,10 @@ public class WorldController extends InputAdapter {
 
         if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
             if(levelInt % 5 == 0) {
+//                CJMain.adsRequestHandler.loadIntersitial();
                 CJMain.adsRequestHandler.showIntersitial();
             } else if(levelInt == 39) {
+//                CJMain.adsRequestHandler.loadIntersitial();
                 CJMain.adsRequestHandler.showIntersitial();
             }
         }

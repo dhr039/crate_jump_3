@@ -35,6 +35,11 @@ public class CJMain extends DirectedGame {
                 }
 
                 @Override
+                public void loadIntersitial() {
+
+                }
+
+                @Override
                 public void showMoreApps() {
                     Gdx.app.log(TAG, "handler was null, showMoreApps() will do nothing");
                 }

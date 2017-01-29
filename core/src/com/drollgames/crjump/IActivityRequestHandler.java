@@ -4,6 +4,8 @@ public interface IActivityRequestHandler {
 
     public void showIntersitial();
 
+    public void loadIntersitial();
+
     public void showMoreApps();
 
     /* not ad related this one, added it here to avoid creating another handler */

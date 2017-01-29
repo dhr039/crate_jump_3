@@ -115,6 +115,11 @@ public class AndroidLauncher extends AndroidApplication implements IActivityRequ
 	}
 
 	@Override
+	public void loadIntersitial() {
+
+	}
+
+	@Override
 	public void showMoreApps() {
 		String url = getString(R.string.drollgames_website);
 		Intent i = new Intent(Intent.ACTION_VIEW);
