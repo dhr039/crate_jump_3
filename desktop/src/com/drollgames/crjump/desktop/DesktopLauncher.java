@@ -7,6 +7,6 @@ import com.drollgames.crjump.CJMain;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new CJMain(), config);
+		new LwjglApplication(new CJMain(null, null), config);
 	}
 }
