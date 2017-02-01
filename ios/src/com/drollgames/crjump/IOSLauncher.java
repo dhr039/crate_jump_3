@@ -11,7 +11,7 @@ import com.drollgames.crjump.CJMain;
 
 public class IOSLauncher extends IOSApplication.Delegate implements IActivityRequestHandler {
 
-    private static final String ADMOB_INTERSTITIAL_ID = "ca-app-pub-6925635541075684/6327090666";
+    private static final String ADMOB_INTERSTITIAL_ID = "ca-app-pub-6925635541075684/7343688666";
 
     private static final String TAG = "DHRlogs ";
     UIViewController viewController;
