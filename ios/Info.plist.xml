@@ -49,12 +49,15 @@
     <dict>
         <key>CFBundlePrimaryIcon</key>
         <dict>
-            <key>CFBundleIconFiles</key>
+            <key>CFBundleIconFiles</key> `
             <array>
                 <string>Icon</string>
                 <string>Icon-72</string>
                 <string>Icon-76</string>
                 <string>Icon-60</string>
+                <string>Icon-Small</string>
+                <string>Icon-Spotlight-40</string>
+                <string>Icon-iPadPro</string>
             </array>
         </dict>
     </dict>
