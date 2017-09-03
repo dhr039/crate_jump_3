@@ -68,11 +68,11 @@ public class WorldController extends InputAdapter {
 
         AudioManager.instance.stopLongDurationApplause();
 
-        if((levelInt + 1) % 2 == 0) {
-            CJMain.adsRequestHandler.loadIntersitial();
-        } else if((levelInt + 1) == 39) {
-            CJMain.adsRequestHandler.loadIntersitial();
-        }
+//        if((levelInt + 1) % 2 == 0) {
+//            CJMain.adsRequestHandler.loadIntersitial();
+//        } else if((levelInt + 1) == 39) {
+//            CJMain.adsRequestHandler.loadIntersitial();
+//        }
 
     }
 
@@ -171,13 +171,13 @@ public class WorldController extends InputAdapter {
 
         GamePreferences.instance.saveCompletedLevel(levelInt, scoreStars);
 
-        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
-            if(levelInt % 2 == 0) {
-                CJMain.adsRequestHandler.showIntersitial();
-            } else if(levelInt == 39) {
-                CJMain.adsRequestHandler.showIntersitial();
-            }
-        }
+//        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
+//            if(levelInt % 2 == 0) {
+//                CJMain.adsRequestHandler.showIntersitial();
+//            } else if(levelInt == 39) {
+//                CJMain.adsRequestHandler.showIntersitial();
+//            }
+//        }
 
 
         AudioManager.instance.playLongDurationApplause();
