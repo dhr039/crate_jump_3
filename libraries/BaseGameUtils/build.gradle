@@ -26,7 +26,6 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion '21.1.1'
+    compileSdkVersion 25
+    buildToolsVersion '25.0'
 }
-
