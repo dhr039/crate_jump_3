@@ -54,7 +54,7 @@ public class InfoAboutScreen extends AbstractGameScreen {
 
     private String text =
             "\n\nCrate Jump\n\n\n\n"
-            + "www.drollgames.com\n\n\n\n"
+            + "https://cannonades.com\n\n\n\n"
             
             + "Programming and design:\n\n\n"
             + "Dumitru Hristov\n\n\n"
