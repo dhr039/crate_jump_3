@@ -53,7 +53,7 @@ public class InfoAboutScreen extends AbstractGameScreen {
     private Table tblBtmleft;
 
     private String text =
-            "\n\nCrate Jump\n\n\n\n"
+            "\n\nDense Jump\n\n\n\n"
             + "https://cannonades.com\n\n\n\n"
             
             + "Programming and design:\n\n\n"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Crate Jump</string>
+    <string name="app_name">Dense Jump</string>
 
     <string name="ad_unit_id_banner_1">ca-app-pub-6925635541075684/5936004663</string>
     <string name="ad_unit_id_interstitial_1">ca-app-pub-6925635541075684/2814840669</string>

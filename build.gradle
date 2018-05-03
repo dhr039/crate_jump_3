@@ -17,7 +17,7 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "Crate Jump"
+        appName = "Dense Jump"
         gdxVersion = '1.9.5'
         roboVMVersion = '2.3.2-SNAPSHOT'
         box2DLightsVersion = '1.4'
