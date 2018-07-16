@@ -41,7 +41,7 @@ public class WorldController extends InputAdapter {
     GameScreen gameScreen;
     private int levelInt;
     private boolean isInPreviewMode = false;
-//    private int interstitial_counter = 0;
+    private int interstitial_counter = 0;
 
     public WorldController(CJMain game, GameScreen gameScreen, int _level) {
         levelInt = _level;
@@ -126,14 +126,14 @@ public class WorldController extends InputAdapter {
         currentTotalAttempts++;
         GamePreferences.instance.saveScoresAttempts(currentTotalAttempts);
 
-//        /* show an interstitial every INTERSTITIAL_FREQUENCY+1*/
-//        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
-//            interstitial_counter++;
-//            if(interstitial_counter > Constants.INTERSTITIAL_FREQUENCY) {
-//                interstitial_counter = 0;
-//                CJMain.adsRequestHandler.showIntersitial();
-//            }
-//        }
+        /* show an interstitial every INTERSTITIAL_FREQUENCY+1*/
+        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
+            interstitial_counter++;
+            if(interstitial_counter > Constants.INTERSTITIAL_FREQUENCY) {
+                interstitial_counter = 0;
+                CJMain.adsRequestHandler.showIntersitial();
+            }
+        }
     }
 
     private void onCollisionCrateWithObstacle(Obstacle obstcl) {
@@ -179,6 +179,7 @@ public class WorldController extends InputAdapter {
 //            }
 //        }
 
+        CJMain.adsRequestHandler.showIntersitial();
 
         AudioManager.instance.playLongDurationApplause();
 

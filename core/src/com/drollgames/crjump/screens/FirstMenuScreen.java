@@ -102,8 +102,8 @@ public class FirstMenuScreen extends AbstractGameScreen {
     private Table buildTableCenter() {
         Table table = new Table();
 
-        TextField textField = new TextField("Dense Jump", skinUi);
-        table.add(textField).padBottom(5f).width(314f).padTop(100);
+        TextField textField = new TextField("Boogie Jump", skinUi);
+        table.add(textField).padBottom(5f).width(364f).padTop(100);
         table.row();
 
         Button btnMenuPlay = new Button(skinUi, "btn_menu_play");

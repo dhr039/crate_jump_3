@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Dense Jump</string>
+    <string name="app_name">Boogie Jump in Space</string>
 
     <string name="ad_unit_id_banner_1">ca-app-pub-6925635541075684/5936004663</string>
     <string name="ad_unit_id_interstitial_1">ca-app-pub-6925635541075684/2814840669</string>
@@ -18,7 +18,7 @@
     <string name="test_device_10">F09FB8E759C9E8BF2433F03722E40078</string>
     <string name="test_device_11">7C34D05E9C7CBC68DF51E69BC06F1F7E</string>
     <string name="test_device_12">69A505B6FA410B6ACF6E6D38E69C8AA1</string>
-    <string name="speakit_app_url">http://play.google.com/store/apps/details?id=com.nazaga.cratejump.android</string>
+    <string name="speakit_app_url">http://play.google.com/store/apps/details?id=com.nazaga.cratejump.androidp</string>
 
     <!-- Google Play Services: -->
     <string name="app_id">731611070114</string>
