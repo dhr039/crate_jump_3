@@ -173,7 +173,7 @@ public class WorldController extends InputAdapter {
         GamePreferences.instance.saveCompletedLevel(levelInt, scoreStars);
 
         if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
-            if(levelInt % 2 == 0) {
+            if(levelInt % 3 == 0) {
                 CJMain.adsRequestHandler.showIntersitial();
             } else if(levelInt == 39) {
                 CJMain.adsRequestHandler.showIntersitial();
