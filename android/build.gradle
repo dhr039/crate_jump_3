@@ -20,7 +20,7 @@ android {
     defaultConfig {
         applicationId "com.nazaga.cratejump.android"
         minSdkVersion 9
-        targetSdkVersion 25
+        targetSdkVersion 29
     }
 }
 // called every time gradle gets executed, takes the native dependencies of
