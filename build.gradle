@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'com.mobidevelop.robovm:robovm-gradle-plugin:2.3.2-SNAPSHOT'
+        classpath 'com.mobidevelop.robovm:robovm-gradle-plugin:2.3.2'
     }
 }
 
@@ -19,7 +19,7 @@ allprojects {
     ext {
         appName = "Boogie Jump in Space"
         gdxVersion = '1.9.5'
-        roboVMVersion = '2.3.2-SNAPSHOT'
+        roboVMVersion = '2.3.2'
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
         aiVersion = '1.8.0'
