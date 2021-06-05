@@ -9,7 +9,7 @@ public class Constants {
 
     public static final int NUMBER_OF_LEVELS = 40;
     public static final int INTERSTITIAL_FREQUENCY = 2;
-    public static final int INTERSTITIAL_MIN_LEVEL = 2;
+    public static final int INTERSTITIAL_MIN_LEVEL = 10;
 
     // GUI Width
     public static final float VIEWPORT_GUI_WIDTH = 800.0f;

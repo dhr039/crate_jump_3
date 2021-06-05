@@ -127,13 +127,14 @@ public class WorldController extends InputAdapter {
         GamePreferences.instance.saveScoresAttempts(currentTotalAttempts);
 
         /* show an interstitial every INTERSTITIAL_FREQUENCY+1*/
-        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
-            interstitial_counter++;
-            if(interstitial_counter > Constants.INTERSTITIAL_FREQUENCY) {
-                interstitial_counter = 0;
-                CJMain.adsRequestHandler.showIntersitial();
-            }
-        }
+        /*commented out, do not show ads on failed passing the level*/
+//        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
+//            interstitial_counter++;
+//            if(interstitial_counter > Constants.INTERSTITIAL_FREQUENCY) {
+//                interstitial_counter = 0;
+//                CJMain.adsRequestHandler.showIntersitial();
+//            }
+//        }
     }
 
     private void onCollisionCrateWithObstacle(Obstacle obstcl) {
@@ -171,15 +172,15 @@ public class WorldController extends InputAdapter {
 
         GamePreferences.instance.saveCompletedLevel(levelInt, scoreStars);
 
-//        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
-//            if(levelInt % 2 == 0) {
-//                CJMain.adsRequestHandler.showIntersitial();
-//            } else if(levelInt == 39) {
-//                CJMain.adsRequestHandler.showIntersitial();
-//            }
-//        }
+        if(levelInt > Constants.INTERSTITIAL_MIN_LEVEL) {
+            if(levelInt % 2 == 0) {
+                CJMain.adsRequestHandler.showIntersitial();
+            } else if(levelInt == 39) {
+                CJMain.adsRequestHandler.showIntersitial();
+            }
+        }
 
-        CJMain.adsRequestHandler.showIntersitial();
+//        CJMain.adsRequestHandler.showIntersitial();
 
         AudioManager.instance.playLongDurationApplause();
 
