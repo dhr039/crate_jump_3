@@ -1,3 +1,4 @@
+<h1 align="center">Crate Jump</h1>
 
 
 ## Install
@@ -9,6 +10,9 @@ If you're just looking to install and play Crate Jump Android, you can find it o
 - make targetSdk = 34
 
 
+
+
+# Screenshots
 ![Screenshot 1](screens/screenshot1.png)
 ![Screenshot 2](screens/screenshot2.png)
 ![Screenshot 3](screens/screenshot3.png)
